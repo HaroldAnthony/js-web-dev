@@ -17,15 +17,27 @@
 
       document.write(a+"<br>"); //This will only print the datatype, not the elts of the actual array.
       console.log(a); //This will print the entire array, in the console window though.
+      document.write("<br>");
 
       document.write(a.fname+"<br>");
       document.write(a.lname+"<br>");
       document.write(a.age+"<br>");
       document.write(a.email+"<br>");
 
-      document.write(a.skills);
+      document.write(a.skills+"<br>");
       console.log(a.skills); //same as document.write, but with additional info like index positions and length of array
+      document.write("<br>");
 
+      //SECOND WAY TO CREATE AN OBJECT
+
+      var b = new Object();
+      b.fname = "Henry";
+      b.lname = "Anthony";
+      b.age = 19;
+
+      document.write(b.fname+"<br>");
+      document.write(b.lname+"<br>");
+      document.write(b.age+"<br>");
 
       
     </script>
