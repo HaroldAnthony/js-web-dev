@@ -1,2 +1,2 @@
 # js-web-dev
-learning JavaScript for web development
+My entire JavaScript learning journey - all in one repository
