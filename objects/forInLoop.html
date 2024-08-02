@@ -7,7 +7,21 @@
 </head>
 <body>
     <script>
-        
+        var a = {
+            fname: "Harold",
+            lname: "Anthony",
+            age: 21,
+        };
+
+        //document.write(a.fname+"<br>"+a.lname+"<br>"+a.age); //if we know obj properties beforehand, this is the manual method to display all contents of an array
+
+        //ALTERNATE METHOD (if we don't know obj properties, but want to see all of them as output)
+
+        for(var key in a){
+            document.write(key+": "+a[key]+"<br>");
+        }
+
+
     </script>
 </body>
 </html>
